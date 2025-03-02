@@ -24,10 +24,10 @@ export default function ContactPage() {
       };
 
       await emailjs.send(
-        'service_3eflgks', // Replace with your EmailJS service ID
-        'template_fg5mz4a', // Replace with your EmailJS template ID
+        'service_xtzwcaf', // Replace with your EmailJS service ID
+        'template_os94nqw', // Replace with your EmailJS template ID
         templateParams,
-        'notS7vgvyZXhE3fXj' // Replace with your EmailJS public key
+        'KtBwAgVO-m3JDTD9W' // Replace with your EmailJS public key
       );
 
       setStatus({ type: 'success', message: 'Message sent successfully!' });
